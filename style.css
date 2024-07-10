@@ -189,13 +189,14 @@ header{
 .hero-three{
     width: 80%;
     height: fit-content;
-    margin: 30px auto;
+    margin: 30px auto ;
     padding: 25px 28px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     gap: 30px;
+
 }
 
 .hero-three .title-container{
@@ -215,6 +216,7 @@ header{
     border: ipx solid #3c3d3f;
     border: none;
     border-radius: 10px;
+
 }
 /* ----------hero-four---------- */
 
@@ -222,16 +224,53 @@ header{
     width: 80%;
     height: fit-content;
     padding: 12px;
-    margin: 300px auto;
+    margin: 50px auto;
     text-align: center;
 }
+.hero-four p{
+    margin-bottom: 30px;
+}
+
 .hero-four .tech-container{
     width: 100%;
-    margin-top: 30px;
+    /* margin-top: -50px; */
     margin-bottom: 30px;
     display: flex;
+    justify-content: center;
+    gap: 1%;
 }
 .hero-four .tech-container .technology{
-    width: 33%;
+    width: 32%;
     text-align: left;
+    border: 0;
+    border-radius: 12px;
+    padding: 22px;
+}
+.hero-four .tech-container .technology h3{
+   font-size: 18px;
+   margin: 14px 0 12px 0;
+}
+.hero-four .tech-container .technology img{
+   width: 50px;
+   border-radius: 5px;
+}
+.hero-four .tech-container .technology p{
+   font-size: 11px;
+   margin: 14px 0 12px 0;
+   line-height: 18px;
+   color: rgb(13, 19, 33);
+}
+.hero-four .tech-container .technology a{
+   font-size: 14px;
+   font-weight: bold;
+   color: rgba(20, 20, 20, 0.938);
+}
+.html{
+    background-color: #fff6f4;
+}
+.css{
+    background-color: #f2f6fe;
+}
+.java{
+    background-color: #fffdf2;
 }
