@@ -183,3 +183,55 @@ header{
 .web-img .code-img img{
     width: 100%;
 }
+
+/* hero-three------------------- */
+
+.hero-three{
+    width: 80%;
+    height: fit-content;
+    margin: 30px auto;
+    padding: 25px 28px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.hero-three .title-container{
+    width: 80%;
+    padding: 14px 18px;
+}
+.hero-three .vid{
+    width: 660px;
+    padding: 8px;
+    border: 1px solid #a2a3a7ce;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.hero-three .vid iframe {
+    width: 630px;
+    padding: 10px 16px;
+    border: ipx solid #3c3d3f;
+    border: none;
+    border-radius: 10px;
+}
+/* ----------hero-four---------- */
+
+.hero-four{
+    width: 80%;
+    height: fit-content;
+    padding: 12px;
+    margin: 300px auto;
+    text-align: center;
+}
+.hero-four .tech-container{
+    width: 100%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    display: flex;
+}
+.hero-four .tech-container .technology{
+    width: 33%;
+    text-align: left;
+}
