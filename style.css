@@ -70,6 +70,7 @@ header{
     justify-content: center;
     align-items: center;
     text-align: center;
+    margin: 0 auto;
     margin-bottom: 30px;
 }
 
@@ -274,3 +275,65 @@ header{
 .java{
     background-color: #fcf9e9;
 }
+
+
+
+/* ---------------email-section------- */
+
+
+.email-section{
+    width: 1140px;
+    height: 314px;
+    background: linear-gradient(rgba(0, 0, 0, 0.63),rgba(0, 0, 0, 0.473)), url('img/handshake.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin: 30px auto;
+    border-radius: 16px;
+    text-align: center;
+    background-blend-mode: overlay;
+    z-index: -1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.email-section h2{
+   color: #FFFFFF;
+   font-size: 24px;
+   margin-top: -70px;
+   margin-bottom: 16px;
+}
+.email-section p{
+   color: #FFFFFF;
+   font-size: 13px;
+   margin-top: 18px;
+   margin-bottom: 16px;
+}
+.email-section .big{
+   width: 100%;
+   padding: 10px;
+}
+.email-section input{
+   background-color: #FFFFFF;
+   width: 40%;
+   padding: 14px 18px;
+   border: 0;
+   outline: 0;
+   border-radius: 10px;
+}
+
+.email-section .btn3{
+    width: 100px;
+    padding: 13px 18px;
+    background-color: #FFFFFF;
+    border: 0;
+    outline: 0;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: bold;
+ }
+.email-section .btn3:hover{
+    background-color: #ffffffcb;
+ }
+
